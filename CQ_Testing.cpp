@@ -13,7 +13,7 @@ class cqueue
 			front=rear=-1;
 		}
 		// declaring methods of the class
-		isqfull(int);
+		int isqfull(int);
 		void enqueue(int[], int, int);
 		void dequeue(int [], int);
 		void display(int [], int);

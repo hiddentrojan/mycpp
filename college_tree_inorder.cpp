@@ -1,3 +1,9 @@
+/*
+
+Inorder Sequence : Left, Root, Right
+
+*/
+
 #include<iostream>
 
 using namespace std;
