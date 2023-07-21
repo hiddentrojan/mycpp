@@ -1,3 +1,7 @@
+/*
+ Preorder : Root, Left, Right
+*/
+
 #include<iostream>
 
 using namespace std;
