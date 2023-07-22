@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     int n; //variable 
-    cout<<"Enter The Number Of Element"; // 10
+    cout<<"Enter The Number Of Element : "; // 10
     cin>>n;
     int array[n],i,item; // 0 1 2 3 4
-    cout<<"Enter the elements";
+    cout<<"Enter the elements : ";
     for(i=0;i<n;i++)
     {
         cin>>array[i]; 
@@ -18,14 +18,14 @@ int main()
     {
         cout<<"\t"<<array[i];
     }
-    cout<<"\nEnter The Element to be searched";
+    cout<<"\nEnter The Element to be searched : ";
     cin>>item;
     int flag=0;
     for(i=0;i<n;i++)
     {
         if(array[i]==item)
         {
-            cout<<"Element Present At Position"<<i+1;
+            cout<<"Element is Present At Position "<<i+1;
             flag=1;
             break;
         }
