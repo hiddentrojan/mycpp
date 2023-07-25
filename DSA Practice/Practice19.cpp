@@ -1,8 +1,4 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include<iostream>
 using namespace std;
 
 
@@ -35,11 +31,11 @@ int main() {
             //cout<<a<<"\n";  
         }
     }
-    /*for(int i=0;i<l;i++){
+    for(int i=0;i<l;i++){
         cout<<c[i]<<"\n";
         if(c[i]!="0"){
             cout<<c[i]<<"\n";
         }
-    }*/
+    }
     return 0;
 }
